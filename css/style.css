@@ -6,11 +6,11 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(to right, #7a979c , #ca8836 , #7a979c);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 110%;
 }
 
 .wrapper {
@@ -21,12 +21,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(198, 187, 187, 0.85);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: rgb(223, 252, 215);
 }
 
 h1 {
@@ -49,6 +49,7 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  margin: .8em;
 }
 
 p {
@@ -56,7 +57,7 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(43, 52, 226);
   text-decoration: none;
 }
 
